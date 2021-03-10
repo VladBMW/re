@@ -58,7 +58,7 @@ header{
     color: white;
     letter-spacing: 3px;
     line-height:50px;
-    font-size: 22px
+    font-size: 22px;
 }
 .text-under{
     color: #949497;
@@ -486,13 +486,17 @@ header{
     .main-text{
         font-size: 40pt;
     }
-    .img-description{
-        left:85%;
-    }
-    .img-red-rectangle{
-        left:85%;
+     .picture-right ,.picture-left{
+        display: none;
         
     }
+    .Description{
+        margin-bottom: 50px;
+    }
+    .text-fishofSection3{
+        text-align: center;
+    }
+   
     .red-markOfSection3{
         margin-top: 30px;
     }
@@ -548,3 +552,97 @@ header{
     
    
  }
+ @media (max-width: 767.98px) { 
+
+    .main-text , .slogan{
+        font-size: 30pt !important;
+        margin-left: 0;
+    }
+    .red-mark , .text-fish{
+        margin-left: 0;
+    }
+    .rectangle-red{
+        width: 150px;
+        margin-top: 30px;
+        
+    }
+    .rectangle-red-text{
+        font-size: 18px;
+    }
+    .btn-circle{
+        margin-top: 20px;
+    }
+    .logoImg{
+        margin-left: 20px;
+    }
+    .menuOfMacbook {
+        width: 100%;
+    }
+    .name , .EMAIL , .PASSWORD , .rght{
+        margin: auto;
+        width: 100%;
+        float: none;
+        margin-bottom:10px ;
+    }
+    .rght{
+      margin-top: 20px;  
+      width: 80%;
+    }
+    .sub {
+        margin: 0;
+       
+       
+    }
+    .ab {
+        margin-top: 0 !important;
+    }
+    
+    
+
+  }
+  @media (max-width: 575.98px) { 
+
+    .main-text , .slogan{
+        font-size: 25pt !important;
+        margin-left: 0;
+    }   
+    .rectangle-red{
+        width: 130px;
+        
+        
+    }
+    .rectangle-red-text{
+        font-size: 15px;
+    }
+    .red-mark {
+        font-size: 13pt;
+    }
+    #width{
+        width: 100%;
+    }
+    .logoImg {
+        margin-left: 0;
+        text-align: center;
+    }
+    .logo1{
+        margin-left: 70px;
+    }
+    .mr{
+        margin-right: 60px;
+    }
+    .rght{
+        margin-top: 20px;  
+        width: 80%;
+      }
+      .underForms {
+        font-size: 12pt;
+      }
+      .Start{
+          text-align: center;
+      }
+      .about{
+         width: 100%;
+      }
+    
+
+   }
