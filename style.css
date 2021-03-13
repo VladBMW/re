@@ -546,6 +546,12 @@ header{
         margin: auto;
         text-align: center;
     }
+    .titleOfGroup{
+        font-size: 25pt !important;
+    }
+    .text-fishofSection3 , .textFishOfHuman {
+        font-size: 13pt !important;
+    }
     
     
     
@@ -560,6 +566,10 @@ header{
     }
     .red-mark , .text-fish{
         margin-left: 0;
+       
+    }
+    .red-mark{
+        margin-top: 100px;
     }
     .rectangle-red{
         width: 150px;
@@ -586,16 +596,32 @@ header{
     }
     .rght{
       margin-top: 20px;  
-      width: 80%;
+      width: 50%;
     }
-    .sub {
-        margin: 0;
-       
-       
+   
+    
+    .red-markOfSection3{
+        margin-top: 0;
+    } 
+    
+    .text-fishofSection3{
+        font-size: 12pt !important;
     }
-    .ab {
-        margin-top: 0 !important;
+    .naturePicture{
+        width: 80px;
     }
+    .titleOfGroup{
+        font-size: 22pt !important;
+    
+    }
+    .Start{
+        text-align: center;
+    }
+    .about{
+        width: 100%;
+    }
+    
+
     
     
 
@@ -624,11 +650,22 @@ header{
         margin-left: 0;
         text-align: center;
     }
-    .logo1{
+    .logo1 {
+       
         margin-left: 70px;
     }
-    .mr{
-        margin-right: 60px;
+    .logo3{
+        margin-left: 110px;
+    }
+    .logo4{
+        margin-right: 0 !important;
+    }
+    .logo , .first-logo , .last-logo{
+        
+        display: inline-block !important;
+    }
+    .last-logo{
+        margin-top: 70px;
     }
     .rght{
         margin-top: 20px;  
@@ -646,3 +683,168 @@ header{
     
 
    }
+   @media (max-width: 1199.98px) { 
+
+    .slogan{
+        font-size: 30pt;
+    }
+    .titleOfGroup{
+        font-size: 18pt;
+    }
+    .text-fishofSection3 , .textFishOfHuman {
+        font-size: 10pt;
+    }
+    .cupofCoffe{
+        float: right;
+        margin: 0;
+    }
+    .macbook{
+     width: 500px;
+     height: 300px;
+     margin-left: 0;
+     top: 20%;
+    }
+    #width{
+        width: 100%;
+    }
+    .red-rectangle-2{
+        height: 161%;
+    }
+    .Clients{
+        margin-top: 0 !important;
+    }
+    .logo3{
+        margin-right: 140px !important;
+    }
+    .last-logo {
+        display: flex;
+        justify-content: center;
+    }
+    .logo4 {
+        margin-left: 0;
+        margin-right: 120px;
+       
+    }
+    .first-logo{
+        display: flex;
+        justify-content: center;
+        height:45%;
+    }
+    .rght {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .img-description ,.img-red-rectangle{
+        left: 28%;
+    }
+    .red-rectangle-2{
+        left: 9% !important;
+        top: -130% !important;
+    }  
+
+    }
+
+    @media (min-width: 1200px) { 
+
+        .slogan{
+            font-size: 35pt;
+        }
+        .text-fishofSection3 , .textFishOfHuman {
+            font-size: 12pt;
+        }
+            .macbook ,.logo1{
+                margin-left: 0;
+            }  
+           .cupofCoffe{
+            float: right;
+            margin: 0;
+        }
+        #width{
+            width: 100%;
+        }  
+        .Clients{
+            margin-top: 5px !important;
+        }
+        .rght {
+            margin-left: 0;
+            width: 77%;
+            margin-top: 10px;
+
+        }
+        .red-rectangle-2{
+            left: -1% !important;
+            top: -130% !important;
+        }  
+        
+        .img-description ,.img-red-rectangle{
+            left: 20%;
+        }
+       
+        
+
+     }
+     @media (min-width: 1400px) {
+
+        
+        .red-rectangle-2{
+            left: -80px !important;
+            top: -550px;
+        }  
+        .logo1{
+            margin-left: 50px;
+        } 
+        .img-description{
+            left: 50px;
+        }
+        .img-red-rectangle{
+            left: 50px;
+        }
+
+     }
+
+     @media (max-width: 405px) { 
+        .slogan ,  .main-text , .titleOfGroup  {
+            font-size: 20pt !important;
+            line-height: 35pt;
+        }
+        .text-fishofSection3 , .textFishOfHuman {
+            font-size: 10pt;
+        }
+        .underNameOfHuman{
+            margin-top: 20px;
+        }
+        .text-fishofSection3 , .textFishOfHuman {
+            font-size: 11pt !important;
+        }
+        .first-logo{
+            width: 100%;
+        }
+        .logo3{
+            margin-right: 30px !important;
+            margin-left: 0 !important;
+        }
+        
+     }
+     @media (max-width: 330px) { 
+
+        .slogan ,  .main-text , .titleOfGroup  {
+            font-size: 16pt !important;
+            line-height: 35pt;
+        }
+        .text-fishofSection3 , .textFishOfHuman {
+            font-size: 8pt !important;
+        }
+
+     }
+     @media (max-width: 320px) { 
+
+    .logo  {
+            margin: auto !important;
+           
+        }
+        .logo3{
+            margin-top: 30px !important;
+            margin-bottom: 30px !important;
+        }
+
+     }
