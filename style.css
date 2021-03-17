@@ -137,15 +137,9 @@ header{
 .img-red-rectangle{
     width: 566px;
     height: 485px;
-    left: 70.2% !important;
-    float: right;
-    top: 109% !important;
-    position: absolute;
+    margin-top:240px;
 }
-.picture-right{
-    position: relative;
-    height: 725px;
-}
+
 
 
 .dark-section{
@@ -172,7 +166,7 @@ header{
     
 }
 .dd{
-    margin-top: 130px;
+    margin-top: 65px;
 }
 .earphones{
     width: 200px;
@@ -220,15 +214,15 @@ header{
     height: 350px;
     margin-top: 120px;
     margin-left: 65px;
-    z-index:10;
     
-    position: relative;
+    
+   
 }
 .red-rectangle-2{
-    top: -520px;
-    left: -35px;
+  margin-bottom: -490px;
     height: 570px;
-    width: 608px;
+    width: 758px;
+    margin-top: -50px;
     
 }
 
@@ -487,7 +481,11 @@ header{
 
 @media (max-width: 991.98px) { 
     
-    
+    .img-description , .tt{
+        display: none;
+    }
+
+
     .main-text{
         font-size: 40pt;
     }
@@ -557,6 +555,7 @@ header{
     .text-fishofSection3 , .textFishOfHuman {
         font-size: 13pt !important;
     }
+    
     
     
     
@@ -690,6 +689,13 @@ header{
    }
    @media (max-width: 1199.98px) { 
 
+    
+    .red-rectangle-2{
+        margin-bottom: -590px;
+        width: 658px;
+    }
+
+
     .slogan{
         font-size: 30pt;
     }
@@ -712,9 +718,7 @@ header{
     #width{
         width: 100%;
     }
-    .red-rectangle-2{
-        height: 161%;
-    }
+    
     .Clients{
         margin-top: 0 !important;
     }
@@ -739,17 +743,16 @@ header{
         margin-left: 0;
         margin-top: 10px;
     }
-    .img-description ,.img-red-rectangle{
-        left: 28%;
-    }
-    .red-rectangle-2{
-        left: 9% !important;
-        top: -130% !important;
-    }  
+     
 
     }
 
     @media (min-width: 1200px) { 
+
+        .red-rectangle-2 {
+            margin-bottom: -540px;
+        }
+   
 
         .slogan{
             font-size: 35pt;
@@ -776,34 +779,23 @@ header{
             margin-top: 10px;
 
         }
-        .red-rectangle-2{
-            left: -1% !important;
-            top: -130% !important;
-        }  
+         
         
-        .img-description ,.img-red-rectangle{
-            left: 20%;
-        }
+        
        
         
 
      }
      @media (min-width: 1400px) {
 
-        
         .red-rectangle-2{
-            left: -80px !important;
-            top: -550px;
-        }  
+            margin-bottom: -490px;
+        }
+        
         .logo1{
             margin-left: 50px;
         } 
-        .img-description{
-            left: 50px;
-        }
-        .img-red-rectangle{
-            left: 50px;
-        }
+        
 
      }
 
@@ -852,4 +844,9 @@ header{
             margin-bottom: 30px !important;
         }
 
+     }
+     @media (max-width: 275px) { 
+        .form-control-lg {
+            width: 150px !important;
+        }
      }
