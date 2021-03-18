@@ -125,19 +125,35 @@ header{
 .slogan-down{
     margin-bottom: 30px;
 }
+
 .img-description{
     width: 566px;
     height: 725px;
-    float: right;
-   background-color: gray;
+   
+    
+  
+   position: absolute;
+   
   
    
     
 }
+
+.gg{
+    display: flex;
+    justify-content:flex-end;
+    
+   
+
+}
+
 .img-red-rectangle{
+    position: absolute;
     width: 566px;
     height: 485px;
-    margin-top:240px;
+    margin-top: 180px;
+    
+    
 }
 
 
@@ -481,7 +497,7 @@ header{
 
 @media (max-width: 991.98px) { 
     
-    .img-description , .tt{
+    .img-description , .tt , .gg{
         display: none;
     }
 
