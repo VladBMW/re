@@ -132,22 +132,28 @@ header{
    
     
   
-   position: absolute;
-   
-  
-   
     
+    position: absolute;
+}
+.rel{
+    position: relative  ;
+   
 }
 
+
 .gg{
-    display: flex;
-    justify-content:flex-end;
+   
+    
+right: 0;
+
+    position: absolute;
     
    
 
 }
 
 .img-red-rectangle{
+   
     position: absolute;
     width: 566px;
     height: 485px;
