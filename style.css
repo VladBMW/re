@@ -133,7 +133,7 @@ header{
     
   
     
-    position: absolute;
+   
 }
 .rel{
     position: relative  ;
@@ -141,7 +141,7 @@ header{
 }
 
 
-.gg{
+.gg , .tt{
    
     
 right: 0;
@@ -157,7 +157,8 @@ right: 0;
     position: absolute;
     width: 566px;
     height: 485px;
-    margin-top: 180px;
+   bottom: 60px;
+   left: 0;
     
     
 }
@@ -235,17 +236,24 @@ right: 0;
     width: 600px;
     height: 350px;
     margin-top: 120px;
-    margin-left: 65px;
-    
+    left: 5%;
+    z-index: 10;
+    position: absolute;
     
    
 }
 .red-rectangle-2{
-  margin-bottom: -490px;
+  
     height: 570px;
     width: 758px;
-    margin-top: -50px;
+    bottom: 0;
+   left: 0;
+   z-index: 3;
     
+}
+.tt{
+    left: 0;
+    z-index: 3;
 }
 
 .less-margin{
@@ -768,6 +776,28 @@ right: 0;
      
 
     }
+    @media (max-width: 1200px) { 
+        
+        .text-fish{
+            width: 70% !important;
+        }
+        .text-fishofSection3{
+            width: 100% !important;
+        }
+        
+        .slogan{
+            font-size: 25pt;
+        }
+        .red-rectangle-2{
+            top: -25px !important;
+        }
+        .macbook{
+            margin-top: 150px;
+        }
+        .less-margin , .titleOfBrowser {
+            width: 100% !important;
+        }
+    }
 
     @media (min-width: 1200px) { 
 
@@ -807,6 +837,25 @@ right: 0;
        
         
 
+     }
+     @media (max-width: 1400px) {
+        .text-fish{
+            width: 80%;
+        }
+        .text-fishofSection3 , .titleOfBrowser {
+            width: 100%;
+        }
+        .img-red-rectangle{
+           top: 240px;
+        }
+        .red-rectangle-2{
+           top: -50px;
+           width: 50%;
+        }
+        .macbook{
+            width: 40%;
+        }
+       
      }
      @media (min-width: 1400px) {
 
